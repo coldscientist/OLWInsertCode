@@ -35,13 +35,13 @@ To paste some code, highlight and copy it from any RTF program. Switch to Open L
 
 ![OLWInsertCode](Screenshots/InserCode-OLW.png)
 
-Compilling
+Building the code
 ===
 
-Compilling the code with Visual Studio or MSBuild will produce a DLL called `OLWInsertCode.dll`.
+Building the code with Visual Studio or MSBuild will produce a DLL called `OLWInsertCode.dll`.
 
 1. You'll need to edit `OLWInsertCode.csproj` file and change `RtfPipe` and `OpenLiveWriter.Api` Reference directory with your Open Live Writer installation directory.
-1. You can compile the code through Visual Studio or through MSBuild (doesn't require Visual Studio) typing the following command at **Command prompt**:
+1. You can build the code through Visual Studio or through MSBuild (doesn't require Visual Studio) typing the following command at **Command prompt**:
 
 ```
 C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe "C:\Users\hp\Documents\GitHub\OLWInsertCode\OLWInsertCode\OLWInsertCode.csproj"
